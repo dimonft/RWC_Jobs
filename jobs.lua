@@ -28,6 +28,7 @@ TEAM_KADET = DarkRP.createJob("Кадет", {
     salary = 0,
     admin = 0,
     category = "Начало",
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -44,7 +45,7 @@ TEAM_CTTRP = DarkRP.createJob("CT Боец", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 100,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -62,7 +63,7 @@ TEAM_CTPVT = DarkRP.createJob("CT Рядовой", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 101,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -80,7 +81,7 @@ TEAM_CTPV1 = DarkRP.createJob("CT Рядовой 1-го класса", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 102,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -98,7 +99,7 @@ TEAM_CTSPC = DarkRP.createJob("CT Специалист", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 103,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -116,7 +117,7 @@ TEAM_CTCPL = DarkRP.createJob("CT Капрал", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 104,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -134,7 +135,7 @@ TEAM_CTMSG = DarkRP.createJob("CT Младший Сержант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 105,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -152,7 +153,7 @@ TEAM_CTSGT = DarkRP.createJob("CT Сержант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 106,
+	sortOrder = 7,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -170,7 +171,7 @@ TEAM_CTSSG = DarkRP.createJob("CT Штаб-Сержант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 107,
+	sortOrder = 8,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -188,7 +189,7 @@ TEAM_CTSFC = DarkRP.createJob("CT Сержант 1-го класса", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 108,
+	sortOrder = 9,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -206,7 +207,7 @@ TEAM_CTSGM = DarkRP.createJob("CT Сержант-Майор", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 109,
+	sortOrder = 10,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -224,7 +225,7 @@ TEAM_СTMLT = DarkRP.createJob("CT Младший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 110,
+	sortOrder = 11,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -242,7 +243,7 @@ TEAM_СTLT = DarkRP.createJob("CT Лейтенант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 111,
+	sortOrder = 12,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -260,7 +261,7 @@ TEAM_СTSLT = DarkRP.createJob("CT Старший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 112,
+	sortOrder = 13,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -278,7 +279,7 @@ TEAM_СTCPT = DarkRP.createJob("CT Капитан", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 113,
+	sortOrder = 14,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -296,7 +297,7 @@ TEAM_СTMAJ = DarkRP.createJob("CT Майор", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 114,
+	sortOrder = 15,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -314,7 +315,7 @@ TEAM_СTLTC = DarkRP.createJob("CT Подполковник", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 115,
+	sortOrder = 16,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -332,7 +333,7 @@ TEAM_СTCOL = DarkRP.createJob("CT Полковник", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 116,
+	sortOrder = 17,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -350,7 +351,7 @@ TEAM_СTCO = DarkRP.createJob("CT Командир", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 117,
+	sortOrder = 18,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -368,7 +369,7 @@ TEAM_СTCC = DarkRP.createJob("CT Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 118,
+	sortOrder = 19,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -386,7 +387,7 @@ TEAM_CTARC = DarkRP.createJob("CT ARC", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 125,
+	sortOrder = 25,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(200)
@@ -404,7 +405,7 @@ TEAM_CTPIL = DarkRP.createJob("CT Пилот", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 126,
+	sortOrder = 26,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -422,7 +423,7 @@ TEAM_CTREC = DarkRP.createJob("CT Разведчик", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 127,
+	sortOrder = 27,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -440,7 +441,7 @@ TEAM_CTSNIP = DarkRP.createJob("CT Снайпер", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 128,
+	sortOrder = 28,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -458,7 +459,7 @@ TEAM_CTMED = DarkRP.createJob("CT Медик", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 129,
+	sortOrder = 29,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -476,7 +477,7 @@ TEAM_CTHEV = DarkRP.createJob("CT Тяжёлый солдат", {
     salary = 0,
     admin = 0,
     category = "CT",
-	sortOrder = 130,
+	sortOrder = 30,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -496,7 +497,7 @@ TEAM_501PV1 = DarkRP.createJob("501st Рядовой 1-го класса", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 202,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -514,7 +515,7 @@ TEAM_501SPC = DarkRP.createJob("501st Специалист", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 203,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -532,7 +533,7 @@ TEAM_501CPL = DarkRP.createJob("501st Капрал", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 204,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -550,7 +551,7 @@ TEAM_501MSG = DarkRP.createJob("501st Младший Сержант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 205,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -568,7 +569,7 @@ TEAM_501SGT = DarkRP.createJob("501st Сержант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 206,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -586,7 +587,7 @@ TEAM_501SSG = DarkRP.createJob("501st Штаб-Сержант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 207,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -604,7 +605,7 @@ TEAM_501SFC = DarkRP.createJob("501st Сержант 1-го класса", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 208,
+	sortOrder = 7,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -622,7 +623,7 @@ TEAM_501SGM = DarkRP.createJob("501st Сержант-Майор", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 209,
+	sortOrder = 8,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -640,7 +641,7 @@ TEAM_501MLT = DarkRP.createJob("501st Младший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 210,
+	sortOrder = 9,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -658,7 +659,7 @@ TEAM_501LT = DarkRP.createJob("501st Лейтенант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 211,
+	sortOrder = 10,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -676,7 +677,7 @@ TEAM_501SLT = DarkRP.createJob("501st Старший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 212,
+	sortOrder = 11,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -694,7 +695,7 @@ TEAM_501CPT = DarkRP.createJob("501st Капитан", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 213,
+	sortOrder = 12,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -712,7 +713,7 @@ TEAM_501MAJ = DarkRP.createJob("501st Майор", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 214,
+	sortOrder = 13,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -730,7 +731,7 @@ TEAM_501LTC = DarkRP.createJob("501st Подполковник", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 215,
+	sortOrder = 14,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -748,7 +749,7 @@ TEAM_501COL = DarkRP.createJob("501st Полковник", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 216,
+	sortOrder = 15,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -766,7 +767,7 @@ TEAM_501CO = DarkRP.createJob("501st Командир", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 217,
+	sortOrder = 16,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -784,7 +785,7 @@ TEAM_501COL = DarkRP.createJob("501st Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 218,
+	sortOrder = 17,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -802,7 +803,7 @@ TEAM_501ARC = DarkRP.createJob("501st ARC", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 225,
+	sortOrder = 25,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -820,7 +821,7 @@ TEAM_501PIL = DarkRP.createJob("501st Пилот", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 226,
+	sortOrder = 26,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -838,7 +839,7 @@ TEAM_501REC = DarkRP.createJob("501st Разведчик", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 227,
+	sortOrder = 27,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -856,7 +857,7 @@ TEAM_501SNIP = DarkRP.createJob("501st Снайпер", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 228,
+	sortOrder = 28,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -874,7 +875,7 @@ TEAM_501MED = DarkRP.createJob("501st Медик", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 229,
+	sortOrder = 29,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -892,7 +893,7 @@ TEAM_501HEV = DarkRP.createJob("501st Тяжёлый солдат", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 230,
+	sortOrder = 30,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -910,7 +911,7 @@ TEAM_501MAR = DarkRP.createJob("501st Морпех", {
     salary = 0,
     admin = 0,
     category = "501st",
-	sortOrder = 231,
+	sortOrder = 31,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -930,7 +931,7 @@ TEAM_327PV1 = DarkRP.createJob("327th Рядовой 1-го класса", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 302,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -948,7 +949,7 @@ TEAM_327SPC = DarkRP.createJob("327th Специалист", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 303,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -966,7 +967,7 @@ TEAM_327CPL = DarkRP.createJob("327th Капрал", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 304,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -984,7 +985,7 @@ TEAM_327MSG = DarkRP.createJob("327th Младший Сержант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 305,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1002,7 +1003,7 @@ TEAM_327SGT = DarkRP.createJob("327th Сержант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 306,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1020,7 +1021,7 @@ TEAM_327SSG = DarkRP.createJob("327th Штаб-Сержант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 307,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1038,7 +1039,7 @@ TEAM_327SFC = DarkRP.createJob("327th Сержант 1-го класса", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 308,
+	sortOrder = 7,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1056,7 +1057,7 @@ TEAM_327SGM = DarkRP.createJob("327th Сержант-Майор", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 309,
+	sortOrder = 8,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1074,7 +1075,7 @@ TEAM_327MLT = DarkRP.createJob("327th Младший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 310,
+	sortOrder = 9,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1092,7 +1093,7 @@ TEAM_327LT = DarkRP.createJob("327th Лейтенант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 311,
+	sortOrder = 10,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1110,7 +1111,7 @@ TEAM_327SLT = DarkRP.createJob("327th Старший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 312,
+	sortOrder = 11,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1128,7 +1129,7 @@ TEAM_327CPT = DarkRP.createJob("327th Капитан", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 313,
+	sortOrder = 12,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1146,7 +1147,7 @@ TEAM_327MAJ = DarkRP.createJob("327th Майор", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 314,
+	sortOrder = 13,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1164,7 +1165,7 @@ TEAM_327LTC = DarkRP.createJob("327th Подполковник", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 315,
+	sortOrder = 14,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1182,7 +1183,7 @@ TEAM_327COL = DarkRP.createJob("327th Полковник", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 316,
+	sortOrder = 15,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1200,7 +1201,7 @@ TEAM_327CO = DarkRP.createJob("327th Командир", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 317,
+	sortOrder = 16,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1218,7 +1219,7 @@ TEAM_327CC = DarkRP.createJob("327th Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 318,
+	sortOrder = 17,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1236,7 +1237,7 @@ TEAM_327ARC = DarkRP.createJob("327th ARC", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 325,
+	sortOrder = 25,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -1254,7 +1255,7 @@ TEAM_327PIL = DarkRP.createJob("327th Пилот", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 326,
+	sortOrder = 26,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1272,7 +1273,7 @@ TEAM_327REC = DarkRP.createJob("327th Разведчик", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 327,
+	sortOrder = 27,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1290,7 +1291,7 @@ TEAM_327SNIP = DarkRP.createJob("327th Снайпер", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 328,
+	sortOrder = 28,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1308,7 +1309,7 @@ TEAM_327MED = DarkRP.createJob("327th Медик", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 329,
+	sortOrder = 29,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1326,7 +1327,7 @@ TEAM_327HEV = DarkRP.createJob("327th Тяжёлый солдат", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 330,
+	sortOrder = 30,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -1344,7 +1345,7 @@ TEAM_327MAR = DarkRP.createJob("327th Морпех", {
     salary = 0,
     admin = 0,
     category = "327th",
-	sortOrder = 331,
+	sortOrder = 31,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -1364,7 +1365,7 @@ TEAM_104PV1 = DarkRP.createJob("104th Рядовой 1-го класса", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 402,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1382,7 +1383,7 @@ TEAM_104SPC = DarkRP.createJob("104th Специалист", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 403,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1400,7 +1401,7 @@ TEAM_104CPL = DarkRP.createJob("104th Капрал", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 404,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1418,7 +1419,7 @@ TEAM_104MSG = DarkRP.createJob("104th Младший Сержант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 405,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1436,7 +1437,7 @@ TEAM_104SGT = DarkRP.createJob("104th Сержант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 406,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1454,7 +1455,7 @@ TEAM_104SSG = DarkRP.createJob("104th Штаб-Сержант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 407,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1472,7 +1473,7 @@ TEAM_104SFC = DarkRP.createJob("104th Сержант 1-го класса", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 408,
+	sortOrder = 7,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1490,7 +1491,7 @@ TEAM_104SGM = DarkRP.createJob("104th Сержант-Майор", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 409,
+	sortOrder = 8,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1508,7 +1509,7 @@ TEAM_104MLT = DarkRP.createJob("104th Младший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 410,
+	sortOrder = 9,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1526,7 +1527,7 @@ TEAM_104LT = DarkRP.createJob("104th Лейтенант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 411,
+	sortOrder = 10,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1544,7 +1545,7 @@ TEAM_104SLT = DarkRP.createJob("104th Старший Лейтенант", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 412,
+	sortOrder = 11,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1562,7 +1563,7 @@ TEAM_104CPT = DarkRP.createJob("104th Капитан", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 413,
+	sortOrder = 12,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1580,7 +1581,7 @@ TEAM_104MAJ = DarkRP.createJob("104th Майор", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 414,
+	sortOrder = 13,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1598,7 +1599,7 @@ TEAM_104LTC = DarkRP.createJob("104th Подполковник", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 415,
+	sortOrder = 14,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1616,7 +1617,7 @@ TEAM_104COL = DarkRP.createJob("104th Полковник", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 416,
+	sortOrder = 15,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1634,7 +1635,7 @@ TEAM_104CO = DarkRP.createJob("104th Командир", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 417,
+	sortOrder = 16,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1652,7 +1653,7 @@ TEAM_104CC = DarkRP.createJob("104th Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 418,
+	sortOrder = 17,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1670,7 +1671,7 @@ TEAM_104ARC = DarkRP.createJob("104th ARC", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 425,
+	sortOrder = 25,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -1706,7 +1707,7 @@ TEAM_104REC = DarkRP.createJob("104th Разведчик", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 427,
+	sortOrder = 27,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1724,7 +1725,7 @@ TEAM_104SNIP = DarkRP.createJob("104th Снайпер", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 428,
+	sortOrder = 28,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1742,7 +1743,7 @@ TEAM_104MED = DarkRP.createJob("104th Медик", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 429,
+	sortOrder = 29,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1760,7 +1761,7 @@ TEAM_104HEV = DarkRP.createJob("104th Тяжёлый солдат", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 430,
+	sortOrder = 30,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -1778,7 +1779,7 @@ TEAM_104MAR = DarkRP.createJob("104th Морпех", {
     salary = 0,
     admin = 0,
     category = "104th",
-	sortOrder = 431,
+	sortOrder = 31,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -1798,7 +1799,7 @@ TEAM_GUARDPV1 = DarkRP.createJob("Гвардия Рядовой 1-го клас�
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 502,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1816,7 +1817,7 @@ TEAM_GUARDSPC = DarkRP.createJob("Гвардия Специалист", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 503,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1834,7 +1835,7 @@ TEAM_GUARDCPL = DarkRP.createJob("Гвардия Капрал", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 504,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1852,7 +1853,7 @@ TEAM_GUARDMSG = DarkRP.createJob("Гвардия Младший Сержант",
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 505,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1870,7 +1871,7 @@ TEAM_GUARDSGT = DarkRP.createJob("Гвардия Сержант", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 506,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1888,7 +1889,7 @@ TEAM_GUARDSSG = DarkRP.createJob("Гвардия Штаб-Сержант", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 507,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1906,7 +1907,7 @@ TEAM_GUARDSFC = DarkRP.createJob("Гвардия Сержант 1-го клас�
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 508,
+	sortOrder = 7,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1924,7 +1925,7 @@ TEAM_GUARDSGM = DarkRP.createJob("Гвардия Сержант-Майор", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 509,
+	sortOrder = 8,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1942,7 +1943,7 @@ TEAM_GUARDMLT = DarkRP.createJob("Гвардия Младший Лейтенан
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 510,
+	sortOrder = 9,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1960,7 +1961,7 @@ TEAM_GUARDLT = DarkRP.createJob("Гвардия Лейтенант", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 511,
+	sortOrder = 10,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1978,7 +1979,7 @@ TEAM_GUARDSLT = DarkRP.createJob("Гвардия Старший Лейтенан
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 512,
+	sortOrder = 11,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -1996,7 +1997,7 @@ TEAM_GUARDCPT = DarkRP.createJob("Гвардия Капитан", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 513,
+	sortOrder = 12,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2014,7 +2015,7 @@ TEAM_GUARDMAJ = DarkRP.createJob("Гвардия Майор", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 514,
+	sortOrder = 13,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2032,7 +2033,7 @@ TEAM_GUARDLTC = DarkRP.createJob("Гвардия Подполковник", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 515,
+	sortOrder = 14,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2050,7 +2051,7 @@ TEAM_GUARDCOL = DarkRP.createJob("Гвардия Полковник", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 516,
+	sortOrder = 15,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2068,7 +2069,7 @@ TEAM_GUARDCO = DarkRP.createJob("Гвардия Командир", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 517,
+	sortOrder = 16,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2086,7 +2087,7 @@ TEAM_GUARDCC = DarkRP.createJob("Гвардия Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 518,
+	sortOrder = 17,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2105,7 +2106,7 @@ TEAM_GUARDARC = DarkRP.createJob("Гвардия ARC", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 525,
+	sortOrder = 25,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -2123,7 +2124,7 @@ TEAM_GUARDPIL = DarkRP.createJob("Гвардия Пилот", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 526,
+	sortOrder = 26,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2141,7 +2142,7 @@ TEAM_GUARDREC = DarkRP.createJob("Спецназ Гвардии Разведчи
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 527,
+	sortOrder = 27,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2159,7 +2160,7 @@ TEAM_GUARDSNIP = DarkRP.createJob("Спецназ Гвардии Снайпер"
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 528,
+	sortOrder = 28,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2177,7 +2178,7 @@ TEAM_GUARDMED = DarkRP.createJob("Спецназ Гвардии Медик", {
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 529,
+	sortOrder = 29,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2195,7 +2196,7 @@ TEAM_GUARDHEV = DarkRP.createJob("Спецназ Гвардии Солдат П�
     salary = 0,
     admin = 0,
     category = "Guard",
-	sortOrder = 530,
+	sortOrder = 30,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2215,7 +2216,7 @@ TEAM_ARFCPT = DarkRP.createJob("ARF Капитан", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 601,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2233,7 +2234,7 @@ TEAM_ARFMAJ = DarkRP.createJob("ARF Майор", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 602,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2251,7 +2252,7 @@ TEAM_ARFLTC = DarkRP.createJob("ARF Подполковник", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 603,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2269,7 +2270,7 @@ TEAM_ARFCOL = DarkRP.createJob("ARF Полковник", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 604,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2287,7 +2288,7 @@ TEAM_ARFCO = DarkRP.createJob("ARF Командир", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 605,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2305,7 +2306,7 @@ TEAM_ARFCC = DarkRP.createJob("ARF Клон-Коммандер", {
     salary = 0,
     admin = 0,
     category = "ARF",
-	sortOrder = 606,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2325,7 +2326,7 @@ TEAM_PILOTSCPT = DarkRP.createJob("Капитан Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 701,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2343,7 +2344,7 @@ TEAM_PILOTSMAJ = DarkRP.createJob("Майор Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 702,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2361,7 +2362,7 @@ TEAM_PILOTSLTC = DarkRP.createJob("Подполковник Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 703,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2379,7 +2380,7 @@ TEAM_PILOTSCOL = DarkRP.createJob("Полковник Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 704,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2397,7 +2398,7 @@ TEAM_PILOTSCO = DarkRP.createJob("Командир Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 705,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2415,7 +2416,7 @@ TEAM_PILOTSCC = DarkRP.createJob("Клон-Коммандер Пилотов", {
     salary = 0,
     admin = 0,
     category = "Pilots",
-	sortOrder = 706,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2435,7 +2436,7 @@ TEAM_MEDICSCPT = DarkRP.createJob("Капитан Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 801,
+	sortOrder = 1,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2453,7 +2454,7 @@ TEAM_MEDICSMAJ = DarkRP.createJob("Майор Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 802,
+	sortOrder = 2,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2471,7 +2472,7 @@ TEAM_MEDICSLTC = DarkRP.createJob("Подполковник Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 803,
+	sortOrder = 3,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2489,7 +2490,7 @@ TEAM_MEDICSCOL = DarkRP.createJob("Полковник Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 804,
+	sortOrder = 4,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2507,7 +2508,7 @@ TEAM_MEDICSCO = DarkRP.createJob("Командир Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 805,
+	sortOrder = 5,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -2525,7 +2526,7 @@ TEAM_MEDICSCC = DarkRP.createJob("Клон-Коммандер Медиков", {
     salary = 0,
     admin = 0,
     category = "Medics",
-	sortOrder = 806,
+	sortOrder = 6,
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
